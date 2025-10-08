@@ -1,7 +1,6 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
 
-**AIM:**
-
+## AIM: 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D 
@@ -14,7 +13,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
 
-**Theory**
+## Theory
 
 Boolean Function Minimization is the process of reducing a Boolean expression to its simplest form without changing its functionality. This minimization reduces the number of gates and inputs required, optimizing circuit design.
 
@@ -28,12 +27,12 @@ F2 = xy’z + x’y’z + w’xy + wx’y + wxy
 Similar simplification can be done for this function to reduce the gate count.
 The resulting minimized expressions are implemented using Verilog HDL and simulated on the Quartus Prime tool. The outputs can then be verified on an FPGA board (e.g., Cyclone II).
 
-**Logic Diagram**
+## Logic Diagram
 
 <img width="359" height="388" alt="image" src="https://github.com/user-attachments/assets/cd66e952-9fcb-420d-b192-cc83b738e969" />
 
 
-**Procedure**
+## Procedure
 
 1.	Type the program in Quartus software.
 
@@ -46,7 +45,7 @@ The resulting minimized expressions are implemented using Verilog HDL and simula
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+## Program:
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
@@ -72,8 +71,9 @@ module boolean_function_minimization(a, b, c, d, w, x, y, z, f1, f2);
 
 
 Developed by: Sanjeev Kumar 
-RegisterNumber: 212224040290
-*/
+
+Register Number: 212224040290
+
 
 
 **RTL realization**
